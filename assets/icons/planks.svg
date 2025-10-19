@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Tábuas de Madeira">
+  <rect fill="#9D7F4A" x="0" y="0" width="16" height="4"/>
+  <rect fill="#8B6F3E" x="0" y="4" width="16" height="4"/>
+  <rect fill="#9D7F4A" x="0" y="8" width="16" height="4"/>
+  <rect fill="#8B6F3E" x="0" y="12" width="16" height="4"/>
+  <rect fill="#6B5530" x="0" y="3" width="16" height="1"/>
+  <rect fill="#6B5530" x="0" y="7" width="16" height="1"/>
+  <rect fill="#6B5530" x="0" y="11" width="16" height="1"/>
+</svg>

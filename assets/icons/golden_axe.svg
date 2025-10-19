@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Machado de Ouro">
+  <!-- Cabeça (ouro) -->
+  <rect fill="#F4D03F" x="3" y="3" width="2" height="2"/>
+  <rect fill="#FCEE4B" x="5" y="3" width="2" height="2"/>
+  <rect fill="#F4D03F" x="3" y="5" width="2" height="2"/>
+  <rect fill="#FCEE4B" x="5" y="5" width="2" height="2"/>
+  <rect fill="#E1B422" x="7" y="5" width="2" height="2"/>
+  <!-- Cabo (graveto) -->
+  <rect fill="#8B5A2B" x="7" y="7" width="2" height="2"/>
+  <rect fill="#8B5A2B" x="8" y="9" width="2" height="2"/>
+  <rect fill="#8B5A2B" x="9" y="11" width="2" height="2"/>
+  <rect fill="#8B5A2B" x="10" y="13" width="2" height="2"/>
+</svg>

@@ -1,0 +1,89 @@
+================================================================================
+                    MINECRAFT CRAFTS - CHANGELOG
+================================================================================
+
+Versão 1.2 - Expansão Massiva de Crafts
+----------------------------------------
+Data: 2025-10-19
+
+ADICIONADO:
+- ✓ 30 NOVOS ITENS CRAFTÁVEIS
+- ✓ 29 NOVAS RECEITAS COMPLETAS
+- ✓ 30 NOVOS ÍCONES SVG pixel art
+
+FERRAMENTAS COMPLETAS (todos os materiais):
+- Picaretas: Madeira, Pedra, Ferro, Ouro, Diamante (5 total)
+- Machados: Madeira, Pedra, Ferro, Ouro, Diamante (5 total)
+- Pás: Madeira, Pedra, Ferro, Ouro, Diamante (5 total)
+- Enxadas: Madeira, Pedra, Ferro, Ouro, Diamante (5 total)
+
+ARMAS COMPLETAS:
+- Espadas: Madeira, Pedra, Ferro, Ouro, Diamante (5 total)
+
+BLOCOS E UTILIDADES:
+- Mesa de Trabalho (4 tábuas)
+- Fornalha (8 pedras)
+- Baú (8 tábuas)
+- Escada (7 gravetos)
+- Cerca (4 tábuas + 2 gravetos)
+- Porta de Madeira (6 tábuas)
+
+ITENS ESPECIAIS:
+- Bastões/4 Gravetos (2 tábuas)
+- Tocha (1 carvão + 1 graveto)
+- Balde (3 barras de ferro)
+- Tesoura (2 barras de ferro)
+- Carvão (novo material base)
+
+ESTATÍSTICAS:
+- Total de itens no banco: 43 (7 materiais + 1 carvão + 35 craftáveis)
+- Total de receitas: 35 (6 originais + 29 novas)
+- Total de ícones SVG: 44
+
+ARQUIVOS CRIADOS:
+- sql/additional_crafts.sql (receitas adicionais)
+- 30 novos arquivos SVG em assets/icons/
+
+--------------------------------------------------------------------------------
+
+Versão 1.1 - Simplificação da Interface
+----------------------------------------
+Data: 2025-10-19
+
+MUDANÇAS:
+- ✓ Removido botão "Ver Craft" (modal) da página Home
+- ✓ Mantido apenas botão "Ver Detalhes" que já funcionava perfeitamente
+- ✓ Simplificação do código JavaScript (removido modal.js)
+- ✓ Removido carregamento de partials/modal.html
+- ✓ Interface mais limpa e direta
+- ✓ Melhor experiência do usuário - direto para a página de detalhes
+
+MOTIVO:
+O modal apresentava problemas de carregamento dos elementos. Como a página
+de detalhes já exibe todas as informações necessárias (grade 3x3, ingredientes
+e descrição do item), decidimos manter apenas ela, simplificando a navegação.
+
+ARQUIVOS MODIFICADOS:
+- js/home.js (simplificado, removido código do modal)
+- home/index.html (removido container do modal)
+- README.txt (atualizada documentação)
+
+ARQUIVOS NÃO UTILIZADOS (mas mantidos no projeto):
+- js/modal.js
+- partials/modal.html
+
+--------------------------------------------------------------------------------
+
+Versão 1.0 - Lançamento Inicial
+--------------------------------
+Data: 2025-10-19
+
+- ✓ Site completo com frontend HTML/CSS/JS e backend PHP
+- ✓ Banco de dados MariaDB com 4 tabelas
+- ✓ 6 receitas de crafting completas
+- ✓ Grade 3x3 visual estilo Minecraft
+- ✓ Busca por nome de item
+- ✓ Tema Minecraft autêntico
+- ✓ Responsivo e acessível
+
+================================================================================

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Veja os detalhes da receita de crafting">
+  <title>Craft - Minecraft Crafts</title>
+  <link rel="stylesheet" href="/minecraft/css/style.css">
+</head>
+<body>
+  <!-- Header será carregado via JS -->
+  <div id="headerContainer"></div>
+
+  <main class="main-content craft-page">
+    <div class="container">
+      <!-- Breadcrumb / Voltar -->
+      <div class="breadcrumb">
+        <a href="/minecraft/home/" class="back-link">&larr; Voltar para Home</a>
+      </div>
+
+      <!-- Status de carregamento -->
+      <div id="loadingMessage" class="loading-message" aria-live="polite">
+        Carregando receita...
+      </div>
+
+      <!-- Mensagem de erro -->
+      <div id="errorMessage" class="error-message" style="display: none;" role="alert"></div>
+
+      <!-- Conteúdo da receita -->
+      <div id="recipeContent" class="recipe-content" style="display: none;">
+        <!-- Cabeçalho do item -->
+        <header class="recipe-header">
+          <div class="recipe-result">
+            <img id="itemIcon" src="" alt="" class="item-icon-xlarge" />
+            <div class="recipe-info">
+              <h1 id="itemName" class="recipe-title"></h1>
+              <p id="itemCategory" class="recipe-category"></p>
+            </div>
+          </div>
+        </header>
+
+        <!-- Grade 3x3 de crafting -->
+        <section class="craft-section">
+          <h2 class="section-title">Grade de Crafting 3x3</h2>
+          <div id="craftGrid" class="craft-grid craft-grid-large" role="grid" aria-label="Grade de crafting 3x3">
+            <!-- Será preenchida via JS -->
+          </div>
+        </section>
+
+        <!-- Descrição do item -->
+        <section class="description-section">
+          <h2 class="section-title">Sobre o Item</h2>
+          <p id="itemDescription" class="item-description"></p>
+        </section>
+
+        <!-- Lista de ingredientes -->
+        <section class="ingredients-section">
+          <h2 class="section-title">Ingredientes Necessários</h2>
+          <ul id="ingredientsList" class="ingredients-list">
+            <!-- Será preenchida via JS -->
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer será carregado via JS -->
+  <div id="footerContainer"></div>
+
+  <!-- Scripts -->
+  <script type="module" src="/minecraft/js/craft.js"></script>
+</body>
+</html>

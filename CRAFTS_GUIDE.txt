@@ -1,0 +1,286 @@
+================================================================================
+                  MINECRAFT CRAFTS - GUIA COMPLETO DE RECEITAS
+================================================================================
+
+Total: 35 RECEITAS CRAFTÁVEIS
+
+================================================================================
+FERRAMENTAS - PICARETAS (5)
+================================================================================
+
+1. PICARETA DE MADEIRA
+   [Tábua] [Tábua] [Tábua]
+   [  -  ] [Stick] [  -  ]
+   [  -  ] [Stick] [  -  ]
+   Ingredientes: 3 Tábuas + 2 Gravetos
+
+2. PICARETA DE PEDRA
+   [Pedra] [Pedra] [Pedra]
+   [  -  ] [Stick] [  -  ]
+   [  -  ] [Stick] [  -  ]
+   Ingredientes: 3 Pedras + 2 Gravetos
+
+3. PICARETA DE FERRO
+   [Ferro] [Ferro] [Ferro]
+   [  -  ] [Stick] [  -  ]
+   [  -  ] [Stick] [  -  ]
+   Ingredientes: 3 Barras de Ferro + 2 Gravetos
+
+4. PICARETA DE OURO
+   [Ouro] [Ouro] [Ouro]
+   [  -  ] [Stick] [  -  ]
+   [  -  ] [Stick] [  -  ]
+   Ingredientes: 3 Barras de Ouro + 2 Gravetos
+
+5. PICARETA DE DIAMANTE
+   [Diam] [Diam] [Diam]
+   [  -  ] [Stick] [  -  ]
+   [  -  ] [Stick] [  -  ]
+   Ingredientes: 3 Diamantes + 2 Gravetos
+
+================================================================================
+FERRAMENTAS - MACHADOS (5)
+================================================================================
+
+6. MACHADO DE MADEIRA
+   [Tábua] [Tábua] [  -  ]
+   [Tábua] [Stick] [  -  ]
+   [  -  ] [Stick] [  -  ]
+   Ingredientes: 3 Tábuas + 2 Gravetos
+
+7. MACHADO DE PEDRA
+   [Pedra] [Pedra] [  -  ]
+   [Pedra] [Stick] [  -  ]
+   [  -  ] [Stick] [  -  ]
+   Ingredientes: 3 Pedras + 2 Gravetos
+
+8. MACHADO DE FERRO
+   [Ferro] [Ferro] [  -  ]
+   [Ferro] [Stick] [  -  ]
+   [  -  ] [Stick] [  -  ]
+   Ingredientes: 3 Barras de Ferro + 2 Gravetos
+
+9. MACHADO DE OURO
+   [Ouro] [Ouro] [  -  ]
+   [Ouro] [Stick] [  -  ]
+   [  -  ] [Stick] [  -  ]
+   Ingredientes: 3 Barras de Ouro + 2 Gravetos
+
+10. MACHADO DE DIAMANTE
+    [Diam] [Diam] [  -  ]
+    [Diam] [Stick] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 3 Diamantes + 2 Gravetos
+
+================================================================================
+FERRAMENTAS - PÁS (5)
+================================================================================
+
+11. PÁ DE MADEIRA
+    [  -  ] [Tábua] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 1 Tábua + 2 Gravetos
+
+12. PÁ DE PEDRA
+    [  -  ] [Pedra] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 1 Pedra + 2 Gravetos
+
+13. PÁ DE FERRO
+    [  -  ] [Ferro] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 1 Barra de Ferro + 2 Gravetos
+
+14. PÁ DE OURO
+    [  -  ] [Ouro] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 1 Barra de Ouro + 2 Gravetos
+
+15. PÁ DE DIAMANTE
+    [  -  ] [Diam] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 1 Diamante + 2 Gravetos
+
+================================================================================
+FERRAMENTAS - ENXADAS (5)
+================================================================================
+
+16. ENXADA DE MADEIRA
+    [Tábua] [Tábua] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 2 Tábuas + 2 Gravetos
+
+17. ENXADA DE PEDRA
+    [Pedra] [Pedra] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 2 Pedras + 2 Gravetos
+
+18. ENXADA DE FERRO
+    [Ferro] [Ferro] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 2 Barras de Ferro + 2 Gravetos
+
+19. ENXADA DE OURO
+    [Ouro] [Ouro] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 2 Barras de Ouro + 2 Gravetos
+
+20. ENXADA DE DIAMANTE
+    [Diam] [Diam] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 2 Diamantes + 2 Gravetos
+
+================================================================================
+ARMAS - ESPADAS (5)
+================================================================================
+
+21. ESPADA DE MADEIRA
+    [  -  ] [Tábua] [  -  ]
+    [  -  ] [Tábua] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 2 Tábuas + 1 Graveto
+
+22. ESPADA DE PEDRA
+    [  -  ] [Pedra] [  -  ]
+    [  -  ] [Pedra] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 2 Pedras + 1 Graveto
+
+23. ESPADA DE FERRO
+    [  -  ] [Ferro] [  -  ]
+    [  -  ] [Ferro] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 2 Barras de Ferro + 1 Graveto
+
+24. ESPADA DE OURO
+    [  -  ] [Ouro] [  -  ]
+    [  -  ] [Ouro] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 2 Barras de Ouro + 1 Graveto
+
+25. ESPADA DE DIAMANTE
+    [  -  ] [Diam] [  -  ]
+    [  -  ] [Diam] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    Ingredientes: 2 Diamantes + 1 Graveto
+
+================================================================================
+BLOCOS E CONSTRUÇÃO (6)
+================================================================================
+
+26. MESA DE TRABALHO
+    [Tábua] [Tábua] [  -  ]
+    [Tábua] [Tábua] [  -  ]
+    [  -  ] [  -  ] [  -  ]
+    Ingredientes: 4 Tábuas
+
+27. FORNALHA
+    [Pedra] [Pedra] [Pedra]
+    [Pedra] [  -  ] [Pedra]
+    [Pedra] [Pedra] [Pedra]
+    Ingredientes: 8 Pedras
+
+28. BAÚ
+    [Tábua] [Tábua] [Tábua]
+    [Tábua] [  -  ] [Tábua]
+    [Tábua] [Tábua] [Tábua]
+    Ingredientes: 8 Tábuas
+
+29. ESCADA (produz 3)
+    [Stick] [  -  ] [Stick]
+    [Stick] [Stick] [Stick]
+    [Stick] [  -  ] [Stick]
+    Ingredientes: 7 Gravetos
+
+30. CERCA (produz 3)
+    [Tábua] [Stick] [Tábua]
+    [Tábua] [Stick] [Tábua]
+    [  -  ] [  -  ] [  -  ]
+    Ingredientes: 4 Tábuas + 2 Gravetos
+
+31. PORTA DE MADEIRA
+    [Tábua] [Tábua] [  -  ]
+    [Tábua] [Tábua] [  -  ]
+    [Tábua] [Tábua] [  -  ]
+    Ingredientes: 6 Tábuas
+
+================================================================================
+ITENS ESPECIAIS E UTILIDADES (4)
+================================================================================
+
+32. BASTÕES (produz 4 gravetos)
+    [  -  ] [Tábua] [  -  ]
+    [  -  ] [Tábua] [  -  ]
+    [  -  ] [  -  ] [  -  ]
+    Ingredientes: 2 Tábuas
+
+33. TOCHA (produz 4)
+    [  -  ] [Carvão] [  -  ]
+    [  -  ] [Stick] [  -  ]
+    [  -  ] [  -  ] [  -  ]
+    Ingredientes: 1 Carvão + 1 Graveto
+
+34. BALDE
+    [Ferro] [  -  ] [Ferro]
+    [  -  ] [Ferro] [  -  ]
+    [  -  ] [  -  ] [  -  ]
+    Ingredientes: 3 Barras de Ferro
+
+35. TESOURA
+    [  -  ] [Ferro] [  -  ]
+    [Ferro] [  -  ] [  -  ]
+    [  -  ] [  -  ] [  -  ]
+    Ingredientes: 2 Barras de Ferro
+
+================================================================================
+RESUMO POR CATEGORIA
+================================================================================
+
+FERRAMENTAS (tool): 24 receitas
+  - Picaretas: 5
+  - Machados: 5
+  - Pás: 5
+  - Enxadas: 5
+  - Utilitários: 4 (Balde, Tesoura, Bastões, Tocha)
+
+ARMAS (weapon): 5 receitas
+  - Espadas: 5
+
+BLOCOS (block): 6 receitas
+  - Mesa de Trabalho, Fornalha, Baú, Escada, Cerca, Porta
+
+================================================================================
+MATERIAIS BASE NECESSÁRIOS
+================================================================================
+
+1. Graveto (Stick) - Usado em 29 receitas
+2. Tábuas de Madeira (Planks) - Usado em 15 receitas
+3. Pedra (Cobblestone) - Usado em 5 receitas
+4. Barra de Ferro (Iron Ingot) - Usado em 7 receitas
+5. Barra de Ouro (Gold Ingot) - Usado em 4 receitas
+6. Diamante (Diamond) - Usado em 5 receitas
+7. Carvão (Coal) - Usado em 1 receita
+
+================================================================================
+COMO USAR O SITE
+================================================================================
+
+1. Acesse: http://localhost/minecraft/home/
+2. Navegue pelos 35 cards de itens craftáveis
+3. Use a busca para filtrar por nome
+4. Clique em "Ver Detalhes" para ver:
+   - Grade 3x3 visual da receita
+   - Lista de ingredientes necessários
+   - Descrição do item
+
+================================================================================

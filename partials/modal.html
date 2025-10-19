@@ -1,0 +1,41 @@
+<div id="craftModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+  <div class="modal-overlay" aria-label="Fechar modal"></div>
+  <div class="modal-container">
+    <button class="modal-close" aria-label="Fechar modal">&times;</button>
+
+    <div class="modal-header">
+      <h2 id="modalTitle" class="modal-title">Receita de Craft</h2>
+    </div>
+
+    <div class="modal-body">
+      <!-- Informações do item -->
+      <div class="modal-item-info">
+        <div class="item-result">
+          <img id="modalItemIcon" src="" alt="" class="item-icon-large" />
+          <h3 id="modalItemName" class="item-name"></h3>
+        </div>
+      </div>
+
+      <!-- Grade 3x3 de crafting -->
+      <div class="craft-section">
+        <h4 class="section-title">Grade de Crafting</h4>
+        <div id="modalCraftGrid" class="craft-grid" role="grid" aria-label="Grade de crafting 3x3">
+          <!-- Será preenchida dinamicamente via JS -->
+        </div>
+      </div>
+
+      <!-- Lista de ingredientes -->
+      <div class="ingredients-section">
+        <h4 class="section-title">Ingredientes Necessários</h4>
+        <ul id="modalIngredientsList" class="ingredients-list">
+          <!-- Será preenchida dinamicamente via JS -->
+        </ul>
+      </div>
+
+      <!-- Link para página de detalhes -->
+      <div class="modal-actions">
+        <a id="modalDetailsLink" href="#" class="btn btn-primary">Ver Detalhes Completos</a>
+      </div>
+    </div>
+  </div>
+</div>

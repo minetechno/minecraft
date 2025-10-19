@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Machado de Ferro">
+  <!-- Cabeça (ferro) -->
+  <rect fill="#D8D8D8" x="3" y="3" width="2" height="2"/>
+  <rect fill="#FFFFFF" x="5" y="3" width="2" height="2"/>
+  <rect fill="#C0C0C0" x="3" y="5" width="2" height="2"/>
+  <rect fill="#D8D8D8" x="5" y="5" width="2" height="2"/>
+  <rect fill="#A8A8A8" x="7" y="5" width="2" height="2"/>
+  <!-- Cabo (graveto) -->
+  <rect fill="#8B5A2B" x="7" y="7" width="2" height="2"/>
+  <rect fill="#8B5A2B" x="8" y="9" width="2" height="2"/>
+  <rect fill="#8B5A2B" x="9" y="11" width="2" height="2"/>
+  <rect fill="#8B5A2B" x="10" y="13" width="2" height="2"/>
+</svg>

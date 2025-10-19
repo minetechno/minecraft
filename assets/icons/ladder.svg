@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Escada">
+  <!-- Laterais -->
+  <rect fill="#8B5A2B" x="3" y="0" width="2" height="16"/>
+  <rect fill="#8B5A2B" x="11" y="0" width="2" height="16"/>
+  <!-- Degraus -->
+  <rect fill="#9D6B3B" x="5" y="2" width="6" height="1"/>
+  <rect fill="#9D6B3B" x="5" y="5" width="6" height="1"/>
+  <rect fill="#9D6B3B" x="5" y="8" width="6" height="1"/>
+  <rect fill="#9D6B3B" x="5" y="11" width="6" height="1"/>
+  <rect fill="#9D6B3B" x="5" y="14" width="6" height="1"/>
+</svg>

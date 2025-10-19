@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Diamante">
+  <rect fill="#5DECF5" x="7" y="2" width="2" height="2"/>
+  <rect fill="#5DECF5" x="5" y="4" width="2" height="2"/>
+  <rect fill="#7FF4FF" x="7" y="4" width="2" height="2"/>
+  <rect fill="#5DECF5" x="9" y="4" width="2" height="2"/>
+  <rect fill="#3DCED8" x="5" y="6" width="2" height="2"/>
+  <rect fill="#5DECF5" x="7" y="6" width="2" height="2"/>
+  <rect fill="#3DCED8" x="9" y="6" width="2" height="2"/>
+  <rect fill="#3DCED8" x="6" y="8" width="2" height="2"/>
+  <rect fill="#5DECF5" x="8" y="8" width="2" height="2"/>
+  <rect fill="#2AB4BE" x="7" y="10" width="2" height="2"/>
+</svg>

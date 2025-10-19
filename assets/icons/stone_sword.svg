@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Espada de Pedra">
+  <!-- Lâmina (pedra) -->
+  <rect fill="#7A7A7A" x="7" y="1" width="2" height="2"/>
+  <rect fill="#8A8A8A" x="7" y="3" width="2" height="2"/>
+  <rect fill="#7A7A7A" x="7" y="5" width="2" height="2"/>
+  <rect fill="#6A6A6A" x="7" y="7" width="2" height="2"/>
+  <!-- Guarda -->
+  <rect fill="#8B5A2B" x="5" y="9" width="6" height="1"/>
+  <!-- Cabo (graveto) -->
+  <rect fill="#9D6B3B" x="7" y="10" width="2" height="2"/>
+  <rect fill="#9D6B3B" x="7" y="12" width="2" height="2"/>
+  <!-- Pomo -->
+  <rect fill="#6B4423" x="6" y="14" width="4" height="1"/>
+</svg>
