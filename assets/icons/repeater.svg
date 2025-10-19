@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Repetidor">
+  <!-- Base de pedra -->
+  <rect fill="#7F7F7F" x="3" y="9" width="10" height="3"/>
+  <rect fill="#9F9F9F" x="4" y="10" width="8" height="1"/>
+  <!-- Tochas de redstone -->
+  <rect fill="#8B0000" x="5" y="8" width="1" height="1"/>
+  <rect fill="#8B0000" x="10" y="8" width="1" height="1"/>
+  <!-- Linha de redstone -->
+  <rect fill="#FF0000" x="6" y="10" width="4" height="1"/>
+</svg>

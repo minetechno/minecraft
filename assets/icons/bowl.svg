@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Tigela">
+  <!-- Tigela de madeira -->
+  <rect fill="#8B5A2B" x="5" y="9" width="6" height="3"/>
+  <rect fill="#9D6B3B" x="6" y="10" width="4" height="1"/>
+  <!-- Laterais -->
+  <rect fill="#654321" x="4" y="8" width="1" height="2"/>
+  <rect fill="#654321" x="11" y="8" width="1" height="2"/>
+  <!-- Base -->
+  <rect fill="#654321" x="6" y="12" width="4" height="1"/>
+</svg>

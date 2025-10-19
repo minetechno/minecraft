@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Trilho Elétrico">
+  <!-- Dormentes (madeira) -->
+  <rect fill="#654321" x="3" y="6" width="2" height="1"/>
+  <rect fill="#654321" x="6" y="6" width="2" height="1"/>
+  <rect fill="#654321" x="9" y="6" width="2" height="1"/>
+  <rect fill="#654321" x="12" y="6" width="2" height="1"/>
+  <rect fill="#654321" x="3" y="9" width="2" height="1"/>
+  <rect fill="#654321" x="6" y="9" width="2" height="1"/>
+  <rect fill="#654321" x="9" y="9" width="2" height="1"/>
+  <rect fill="#654321" x="12" y="9" width="2" height="1"/>
+  <!-- Trilhos (ouro) -->
+  <rect fill="#FFD700" x="2" y="5" width="12" height="1"/>
+  <rect fill="#FFD700" x="2" y="10" width="12" height="1"/>
+  <!-- Redstone -->
+  <rect fill="#FF0000" x="7" y="7.5" width="2" height="1"/>
+</svg>

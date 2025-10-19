@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Cama">
+  <!-- Base da cama -->
+  <rect fill="#8B4513" x="2" y="9" width="12" height="3"/>
+  <!-- Colchão -->
+  <rect fill="#DC143C" x="2" y="7" width="12" height="2"/>
+  <!-- Travesseiro -->
+  <rect fill="#FFFFFF" x="11" y="6" width="3" height="1"/>
+  <!-- Pés -->
+  <rect fill="#654321" x="2" y="12" width="1" height="2"/>
+  <rect fill="#654321" x="13" y="12" width="1" height="2"/>
+</svg>

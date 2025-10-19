@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Botas de Ouro">
+  <!-- Bota esquerda -->
+  <rect fill="#FFD700" x="3" y="10" width="3" height="4"/>
+  <rect fill="#FFFF00" x="4" y="11" width="1" height="1"/>
+  <!-- Base esquerda -->
+  <rect fill="#DAA520" x="3" y="14" width="4" height="1"/>
+  <!-- Bota direita -->
+  <rect fill="#FFD700" x="10" y="10" width="3" height="4"/>
+  <rect fill="#FFFF00" x="11" y="11" width="1" height="1"/>
+  <!-- Base direita -->
+  <rect fill="#DAA520" x="9" y="14" width="4" height="1"/>
+</svg>

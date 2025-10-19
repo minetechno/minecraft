@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Peitoral de Ouro">
+  <!-- Corpo do peitoral -->
+  <rect fill="#FFD700" x="4" y="5" width="8" height="7"/>
+  <rect fill="#FFA500" x="5" y="6" width="6" height="5"/>
+  <!-- Ombros -->
+  <rect fill="#FFD700" x="3" y="5" width="2" height="3"/>
+  <rect fill="#FFD700" x="11" y="5" width="2" height="3"/>
+  <!-- Brilho -->
+  <rect fill="#FFFF00" x="6" y="7" width="1" height="2"/>
+  <!-- Sombra -->
+  <rect fill="#DAA520" x="5" y="10" width="6" height="1"/>
+</svg>

@@ -2,6 +2,76 @@
                     MINECRAFT CRAFTS - CHANGELOG
 ================================================================================
 
+Versão 1.3 - Expansão Completa (119 Itens, 81 Receitas)
+--------------------------------------------------------
+Data: 2025-10-19
+
+ADICIONADO:
+- ✓ 84 NOVOS ITENS (de 35 para 119 itens totais)
+- ✓ 46 NOVAS RECEITAS (de 35 para 81 receitas totais)
+- ✓ 70 NOVOS ÍCONES SVG pixel art (de 44 para 114 ícones)
+
+ARMADURAS COMPLETAS (4 materiais):
+- Conjuntos completos: Couro, Ferro, Ouro, Diamante
+- Cada conjunto: Capacete, Peitoral, Calças, Botas (16 peças total)
+
+ARMAS E FERRAMENTAS:
+- Armas: Arco, Flecha, Escudo
+- Ferramentas existentes mantidas (picaretas, machados, pás, enxadas, espadas)
+
+BLOCOS DE CONSTRUÇÃO:
+- Lajes: Madeira, Pedra
+- Escadas de Pedra
+- Portão, Alçapão, Placa
+- Vidro e Painel de Vidro
+- Tijolos, Estante
+
+ITENS UTILITÁRIOS:
+- Cama, Livro, Pintura
+- Bússola, Relógio
+- Vara de Pesca, Pederneira
+
+REDSTONE (9 itens):
+- Botões: Madeira, Pedra
+- Placas de Pressão: Madeira, Pedra
+- Alavanca, Tocha de Redstone
+- Repetidor, Pistão, Pistão Grudento
+
+TRANSPORTE (6 itens):
+- Barco, Carrinho de Mina
+- Trilhos: Normal, Elétrico
+- Carrinhos especiais: com Baú, com Fornalha
+
+COMIDA (6 itens):
+- Pão, Bolo, Biscoito
+- Tigela, Ensopado de Cogumelo
+- Bloco de Melancia
+
+BLOCOS DE MATERIAL (5 blocos):
+- Bloco de Ferro, Ouro, Diamante
+- Bloco de Carvão, Bloco de Slime
+
+MATERIAIS BASE ADICIONADOS:
+- Couro, Lã, Linha, Pena
+- Pederneira, Redstone, Saco de Tinta, Papel
+
+ESTATÍSTICAS FINAIS:
+- Total de itens no banco: 119
+- Total de receitas: 81
+- Total de ícones SVG: 114
+- Cobertura: ~21% das 379+ receitas do Minecraft original
+
+ARQUIVOS CRIADOS:
+- sql/massive_expansion.sql (70+ novos itens)
+- sql/massive_expansion_recipes.sql (receitas de armaduras)
+- sql/massive_expansion_recipes_part2.sql (blocos, redstone, transporte)
+- 70 novos arquivos SVG em assets/icons/
+
+CORREÇÕES:
+- ✓ Encoding UTF-8 corrigido para acentuação em português (via fix_utf8_encoding.sql)
+
+--------------------------------------------------------------------------------
+
 Versão 1.2 - Expansão Massiva de Crafts
 ----------------------------------------
 Data: 2025-10-19

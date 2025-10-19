@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Alçapão">
+  <!-- Base do alçapão -->
+  <rect fill="#8B5A2B" x="3" y="7" width="10" height="5"/>
+  <rect fill="#9D6B3B" x="4" y="8" width="8" height="3"/>
+  <!-- Tábuas -->
+  <rect fill="#7A4A1B" x="4" y="8" width="2" height="3"/>
+  <rect fill="#7A4A1B" x="7" y="8" width="2" height="3"/>
+  <rect fill="#7A4A1B" x="10" y="8" width="2" height="3"/>
+</svg>

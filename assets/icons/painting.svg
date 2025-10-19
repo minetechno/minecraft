@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Pintura">
+  <!-- Moldura -->
+  <rect fill="#654321" x="3" y="3" width="10" height="10"/>
+  <!-- Tela -->
+  <rect fill="#FFFAF0" x="4" y="4" width="8" height="8"/>
+  <!-- Arte abstrata -->
+  <rect fill="#4169E1" x="5" y="5" width="3" height="3"/>
+  <rect fill="#32CD32" x="9" y="5" width="2" height="2"/>
+  <rect fill="#FFD700" x="6" y="9" width="4" height="2"/>
+</svg>

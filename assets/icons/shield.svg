@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Escudo">
+  <!-- Corpo do escudo (madeira) -->
+  <rect fill="#8B4513" x="5" y="3" width="6" height="8"/>
+  <rect fill="#9D6B3B" x="6" y="4" width="4" height="6"/>
+  <!-- Base pontiaguda -->
+  <polygon fill="#8B4513" points="8,11 6,11 7,13"/>
+  <polygon fill="#8B4513" points="8,11 10,11 9,13"/>
+  <!-- Ferro central -->
+  <rect fill="#D8D8D8" x="7.5" y="5" width="1" height="5"/>
+</svg>

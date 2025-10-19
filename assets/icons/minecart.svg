@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Carrinho de Mina">
+  <!-- Corpo do carrinho -->
+  <rect fill="#A0A0A0" x="4" y="8" width="8" height="4"/>
+  <rect fill="#D8D8D8" x="5" y="9" width="6" height="2"/>
+  <!-- Laterais -->
+  <rect fill="#909090" x="3" y="7" width="1" height="3"/>
+  <rect fill="#909090" x="12" y="7" width="1" height="3"/>
+  <!-- Rodas -->
+  <rect fill="#4A4A4A" x="5" y="12" width="2" height="2"/>
+  <rect fill="#4A4A4A" x="9" y="12" width="2" height="2"/>
+  <!-- Brilho -->
+  <rect fill="#FFFFFF" x="6" y="9" width="1" height="1"/>
+</svg>

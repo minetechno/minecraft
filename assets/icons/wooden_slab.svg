@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Laje de Madeira">
+  <!-- Laje (metade de um bloco) -->
+  <rect fill="#9D6B3B" x="2" y="10" width="12" height="4"/>
+  <rect fill="#8B5A2B" x="3" y="11" width="10" height="2"/>
+  <!-- Textura -->
+  <rect fill="#7A4A1B" x="4" y="11" width="1" height="2"/>
+  <rect fill="#7A4A1B" x="9" y="11" width="1" height="2"/>
+</svg>
