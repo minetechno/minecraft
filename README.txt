@@ -1,248 +1,222 @@
 ================================================================================
-                    MINECRAFT CRAFTS - GUIA DE INSTALAÇÃO
+                    MINECRAFT CRAFTS - GUIA DE RECEITAS
 ================================================================================
 
-DESCRIÇÃO
----------
-Site completo para visualizar receitas de crafting do Minecraft com grade
-visual 3x3. Desenvolvido com HTML5, CSS3, JavaScript (vanilla) e PHP como
-API para ler dados do MariaDB.
-
-REQUISITOS
+BEM-VINDO!
 ----------
-- WAMP Server (Windows + Apache + MySQL/MariaDB + PHP 8+)
-- Navegador moderno com suporte a ES6 Modules
-- MariaDB/MySQL rodando no WAMP
+Este site foi criado para ajudar jogadores de Minecraft a encontrar receitas de
+crafting de forma rápida e visual. Se você está começando no jogo ou quer
+relembrar como craftar um item específico, este é o lugar certo!
 
-ESTRUTURA DO PROJETO
+PARA QUE SERVE?
+---------------
+✓ Encontre qualquer receita de crafting instantaneamente
+✓ Veja a grade 3x3 exatamente como aparece no jogo
+✓ Descubra quais materiais você precisa juntar
+✓ Busque por nome para achar rapidamente o que precisa
+✓ Todas as receitas validadas contra dados oficiais do Minecraft
+
+COM QUEM O SITE PODE AJUDAR?
+-----------------------------
+→ INICIANTES: Aprendendo a craftar itens básicos
+   - Não sabe como fazer uma picareta? Procure aqui!
+   - Esqueceu a receita da bigorna? Está tudo aqui!
+
+→ JOGADORES EXPERIENTES: Referência rápida
+   - Precisa conferir quantos materiais usar? Veja a lista de ingredientes!
+   - Quer saber se um item é craftável? Busque no site!
+
+→ CONSTRUTORES: Planejando projetos grandes
+   - Calcule quantos materiais precisará
+   - Veja todas as variações de um mesmo item
+   - Descubra receitas alternativas
+
+COMO USAR O SITE
+----------------
+
+1. BUSCAR UM ITEM
+   - Digite o nome do item na barra de busca (ex: "espada", "picareta")
+   - Os resultados aparecem instantaneamente
+   - Clique no card do item que você procura
+
+2. VER A RECEITA
+   - A grade 3x3 mostra exatamente onde colocar cada material
+   - A lista de ingredientes mostra TUDO que você precisa
+   - A descrição explica para que serve o item
+
+3. NAVEGAR PELOS ITENS
+   - Role a página inicial para ver todos os itens disponíveis
+   - Itens estão organizados por categoria (ferramentas, armas, blocos, etc.)
+   - Cada card mostra uma prévia do item e sua categoria
+
+O QUE ESTÁ INCLUÍDO?
 --------------------
-minecraft/
-  ├── home/index.html          → Página principal com grid de itens
-  ├── craft/index.html         → Página de detalhes do craft
-  ├── api/                     → Endpoints PHP da API
-  │   ├── config.php           → Configurações (DB, BASE_PATH)
-  │   ├── db.php               → Conexão com banco de dados
-  │   ├── items.php            → GET lista de itens craftáveis
-  │   └── recipe.php           → GET receita por ID
-  ├── css/style.css            → Estilos com tema Minecraft
-  ├── js/                      → Scripts JavaScript
-  │   ├── utils/basepath.js    → Helpers de URL
-  │   ├── home.js              → Lógica da home
-  │   └── craft.js             → Lógica da página craft
-  ├── partials/                → Componentes HTML reutilizáveis
-  │   ├── header.html          → Cabeçalho
-  │   └── footer.html          → Rodapé
-  ├── assets/                  → Assets estáticos
-  │   ├── icons/               → 14 ícones SVG pixel art
-  │   └── fonts/pixel.woff     → Fonte pixel para títulos
-  ├── sql/                     → Scripts de banco de dados
-  │   ├── schema.sql           → Estrutura das tabelas
-  │   └── seed.sql             → Dados iniciais (6 crafts)
-  ├── index.html               → Redireciona para /home/
-  └── README.txt               → Este arquivo
+📦 257 ITENS DO MINECRAFT
+   - Ferramentas (picaretas, machados, pás, enxadas)
+   - Armas (espadas, arcos, flechas, escudos)
+   - Armaduras (capacetes, peitorais, calças, botas)
+   - Blocos (construção, decoração, redstone)
+   - Alimentos (pão, bolo, torta de abóbora)
+   - Itens especiais (bússola, relógio, mapa)
+   - Redstone (pistões, comparadores, repetidores)
+   - Transporte (trilhos, barcos, carrinhos)
 
-INSTRUÇÕES DE INSTALAÇÃO
--------------------------
+🎯 190 RECEITAS COMPLETAS
+   - Todas validadas contra dados oficiais
+   - 100% de precisão garantida
+   - Incluindo receitas novas da versão 1.21.6+
 
-1. COPIAR ARQUIVOS
-   - Copie toda a pasta "minecraft" para: C:\wamp64\www\
-   - O caminho completo deve ser: C:\wamp64\www\minecraft\
+🎨 251 ÍCONES PIXEL ART
+   - Visuais fiéis ao jogo
+   - Fácil de reconhecer cada item
 
-2. INICIAR WAMP
-   - Inicie o WAMP Server
-   - Certifique-se de que o ícone do WAMP está VERDE (todos os serviços rodando)
-   - Se estiver LARANJA ou VERMELHO, verifique os logs de erro
+RECURSOS ESPECIAIS
+------------------
 
-3. CRIAR BANCO DE DADOS
-   - Acesse o phpMyAdmin: http://localhost/phpmyadmin
-   - Clique em "Novo" no menu lateral esquerdo
-   - Nome do banco: minecraft_site
-   - Collation: utf8mb4_unicode_ci
-   - Clique em "Criar"
+✓ BUSCA INTELIGENTE
+  Encontre qualquer item digitando parte do nome. Por exemplo:
+  - Digite "ferro" → encontra barra de ferro, bloco de ferro, armadura de ferro
+  - Digite "madeira" → encontra tábuas, troncos, portas, ferramentas de madeira
 
-4. IMPORTAR ESTRUTURA DO BANCO
-   - Com o banco "minecraft_site" selecionado
-   - Clique na aba "Importar"
-   - Clique em "Escolher arquivo"
-   - Navegue até: C:\wamp64\www\minecraft\sql\schema.sql
-   - Clique em "Executar"
-   - Aguarde a mensagem de sucesso
+✓ RECEITAS ATUALIZADAS
+  Incluindo itens novos do Minecraft 1.21.6+:
+  - Sela (agora é craftável!)
+  - E muitos outros itens
 
-5. IMPORTAR DADOS INICIAIS
-   - Ainda na aba "Importar"
-   - Clique em "Escolher arquivo"
-   - Navegue até: C:\wamp64\www\minecraft\sql\seed.sql
-   - Clique em "Executar"
-   - Aguarde a mensagem de sucesso
+✓ INFORMAÇÕES CLARAS
+  Cada item mostra:
+  - Nome em português
+  - Descrição do que faz no jogo
+  - Categoria (ferramenta, arma, bloco, etc.)
+  - Receita completa com ingredientes
 
-6. VERIFICAR CREDENCIAIS (OPCIONAL)
-   - Abra o arquivo: C:\wamp64\www\minecraft\api\config.php
-   - Verifique as credenciais do banco de dados:
+✓ VISUAL FIEL AO JOGO
+  A grade 3x3 é idêntica à bancada de trabalho do Minecraft:
+  - Mesmas posições
+  - Mesmos materiais
+  - Fácil de reproduzir no jogo
 
-     define('DB_HOST', 'localhost');
-     define('DB_USER', 'root');
-     define('DB_PASS', '');  // Padrão WAMP é vazio
-     define('DB_NAME', 'minecraft_site');
+DICAS DE USO
+------------
 
-   - Ajuste APENAS se você alterou as credenciais padrão do WAMP
+💡 PLANEJE ANTES DE MINERAR
+   Antes de sair minerando, confira o que você precisa:
+   - Quantos diamantes para uma armadura completa?
+   - Quanto ferro para fazer ferramentas?
+   - Use o site para se preparar!
 
-7. ACESSAR O SITE
-   - Abra seu navegador
-   - Acesse: http://localhost/minecraft/
-   - Você será redirecionado automaticamente para: http://localhost/minecraft/home/
+💡 APRENDA RECEITAS NOVAS
+   Descobriu um material novo? Veja o que pode craftar com ele:
+   - Encontrou obsidiana? Faça uma mesa de encantamento!
+   - Pegou slime? Crie um pistão grudento!
 
-VERIFICAÇÃO DA INSTALAÇÃO
---------------------------
+💡 ECONOMIZE RECURSOS
+   Veja exatamente o que precisa antes de gastar materiais preciosos:
+   - Não desperdice diamantes fazendo a ferramenta errada
+   - Planeje seus crafts com antecedência
 
-✓ Deve aparecer a página Home com cards dos 6 itens craftáveis
-✓ O campo de busca no topo deve filtrar os itens
-✓ Botão "Ver Detalhes" deve levar à página completa do craft
-✓ Na página de detalhes, deve mostrar a grade 3x3 e lista de ingredientes
+💡 COMPARTILHE COM AMIGOS
+   Jogando em servidor? Compartilhe receitas com seu time:
+   - "Preciso de 4 tábuas de carvalho para o telar"
+   - "Quem tem 3 couros? Vou fazer uma sela!"
 
-NAVEGAÇÃO DO SITE
+EXEMPLOS DE USO
+---------------
+
+EXEMPLO 1: Começando no Minecraft
+  Você acabou de entrar no jogo e precisa de ferramentas básicas.
+
+  1. Busque "picareta de madeira"
+  2. Veja que precisa: 3 tábuas + 2 gravetos
+  3. Busque "tábuas" para saber como fazer (1 tronco = 4 tábuas)
+  4. Busque "graveto" para saber como fazer (2 tábuas = 4 gravetos)
+  5. Agora você sabe: precisa de 2 troncos no total!
+
+EXEMPLO 2: Preparando uma expedição ao Nether
+  Você quer uma armadura completa de diamante antes de ir.
+
+  1. Busque cada peça: capacete, peitoral, calças, botas
+  2. Some os diamantes necessários: 5 + 8 + 7 + 4 = 24 diamantes!
+  3. Ainda faltam diamantes? Continue minerando!
+
+EXEMPLO 3: Construindo uma base com redstone
+  Você quer criar um sistema de portas automáticas.
+
+  1. Busque "pistão" - veja que precisa de ferro e redstone
+  2. Busque "repetidor" - mais redstone e pedra
+  3. Busque "comparador" - redstone e quartzo do Nether
+  4. Liste todos os materiais e vá buscar!
+
+PERGUNTAS FREQUENTES
+--------------------
+
+P: O site funciona offline?
+R: Não, você precisa estar conectado para acessar o site.
+
+P: As receitas estão atualizadas?
+R: Sim! Todas as receitas são validadas contra dados oficiais do Minecraft
+   e incluem atualizações recentes como a sela craftável (1.21.6+).
+
+P: Posso sugerir novos itens?
+R: O site já inclui os principais itens craftáveis do Minecraft. Novas
+   atualizações serão adicionadas conforme o jogo for atualizado.
+
+P: Por que alguns itens não têm receita?
+R: Alguns itens do Minecraft não são craftáveis - eles são obtidos através de:
+   - Mineração (diamante, carvão, ferro)
+   - Drops de mobs (pérola do ender, pólvora)
+   - Comércio com aldeões
+   - Baús de estruturas (sela antes da 1.21.6)
+   O site indica claramente quando um item não é craftável.
+
+P: As receitas funcionam em todas as versões?
+R: As receitas são baseadas na Java Edition versão 1.20+. Algumas receitas
+   podem ser diferentes na Bedrock Edition ou em versões mais antigas.
+
+SOBRE AS RECEITAS
 -----------------
 
-ROTAS (por pasta, SEM roteamento GET):
-- http://localhost/minecraft/        → Redireciona para /home/
-- http://localhost/minecraft/home/   → Página principal (grid de cards)
-- http://localhost/minecraft/craft/?id=8   → Detalhes de um craft específico
+TIPOS DE RECEITA:
 
-FUNCIONALIDADES:
-- Busca por nome de item (client-side, campo no header)
-- Página completa de detalhes com descrição do item
-- Grade 3x3 fiel ao Minecraft
-- Lista agregada de ingredientes necessários
+→ SHAPED (Com Forma)
+  Os ingredientes devem estar em posições específicas.
+  Exemplo: Espada (2 materiais em coluna + 1 graveto embaixo)
 
-API ENDPOINTS
--------------
+→ SHAPELESS (Sem Forma)
+  Os ingredientes podem estar em qualquer posição.
+  Exemplo: Lãs coloridas (lã + corante em qualquer ordem)
 
-GET /minecraft/api/items.php
-  → Retorna lista de todos os itens craftáveis
-  → Parâmetro opcional: ?q=espada (filtro por nome)
+GRADE 3x3:
+A bancada de trabalho tem 9 espaços (3 linhas x 3 colunas).
+O site mostra exatamente onde colocar cada material!
 
-GET /minecraft/api/recipe.php?id={id}
-  → Retorna receita completa de um item
-  → Inclui: item, grid (9 células), ingredients (lista agregada)
+COMEÇANDO A JOGAR?
+------------------
 
-BANCO DE DADOS
---------------
+Se você é novo no Minecraft, comece procurando por estas receitas:
 
-TABELAS:
-- items              → Itens (materiais e craftáveis)
-- recipes            → Receitas (vincula item a uma receita)
-- recipe_grid        → Grade 3x3 (9 linhas por receita)
-- ingredients_flat   → Ingredientes agregados por receita
+1. TÁBUAS DE MADEIRA
+   - Primeiro item que você deve fazer
+   - Base para quase tudo no jogo
 
-ITENS CADASTRADOS:
-- Materiais: Graveto, Tronco de Madeira, Tábuas, Pedra, Ferro, Ouro, Diamante
-- Craftáveis: Picareta de Madeira, Espada de Pedra, Machado de Pedra,
-              Pá de Ouro, Espada de Ferro, Machado de Diamante
+2. GRAVETOS
+   - Necessários para fazer ferramentas
+   - Feitos com tábuas de madeira
 
-SOLUÇÃO DE PROBLEMAS
---------------------
+3. PICARETA DE MADEIRA
+   - Sua primeira ferramenta
+   - Permite minerar pedra
 
-PROBLEMA: Página em branco
-SOLUÇÃO:
-  - Verifique se o WAMP está rodando (ícone verde)
-  - Acesse http://localhost/ para verificar se o Apache está ok
-  - Verifique o console do navegador (F12) por erros JavaScript
+4. FORNALHA
+   - Fundamental para derreter minérios
+   - Feita com 8 pedras
 
-PROBLEMA: Erro "Erro ao conectar ao banco de dados"
-SOLUÇÃO:
-  - Verifique se o MySQL está rodando no WAMP
-  - Confirme que o banco "minecraft_site" foi criado
-  - Verifique as credenciais em api/config.php
+5. MESA DE TRABALHO
+   - Essencial! Permite craftar qualquer item
+   - Feita com 4 tábuas de madeira
 
-PROBLEMA: Erro 404 ao acessar /minecraft/
-SOLUÇÃO:
-  - Certifique-se de que a pasta está em C:\wamp64\www\minecraft\
-  - Verifique se o Apache está rodando
-  - Tente acessar diretamente: http://localhost/minecraft/home/
-
-PROBLEMA: Itens não aparecem na home
-SOLUÇÃO:
-  - Abra o console do navegador (F12)
-  - Verifique se há erros de rede (aba Network)
-  - Teste a API diretamente: http://localhost/minecraft/api/items.php
-  - Deve retornar um JSON com a lista de itens
-
-PROBLEMA: Modal não abre ou não exibe a grade
-SOLUÇÃO:
-  - Verifique o console do navegador por erros JavaScript
-  - Teste a API: http://localhost/minecraft/api/recipe.php?id=8
-  - Deve retornar um JSON com item, grid e ingredients
-
-PROBLEMA: Ícones não aparecem
-SOLUÇÃO:
-  - Verifique se a pasta assets/icons/ contém os 14 arquivos SVG
-  - Abra um ícone diretamente: http://localhost/minecraft/assets/icons/stick.svg
-
-PERSONALIZAÇÃO
---------------
-
-ADICIONAR NOVOS ITENS:
-1. Adicione o item na tabela "items"
-2. Crie uma receita na tabela "recipes"
-3. Preencha a grade 3x3 na tabela "recipe_grid" (9 linhas)
-4. Preencha os ingredientes agregados em "ingredients_flat"
-5. Adicione o ícone SVG em assets/icons/
-
-ALTERAR CORES DO TEMA:
-- Edite as variáveis CSS em css/style.css (seção :root)
-- Cores principais: --color-grass, --color-dirt, --color-wood
-
-ALTERAR BASE PATH:
-- Se quiser mudar de /minecraft para /crafts, por exemplo:
-  1. Edite api/config.php → define('BASE_PATH', '/crafts');
-  2. Edite js/utils/basepath.js → export const BASE_PATH = '/crafts';
-  3. Mova a pasta para C:\wamp64\www\crafts\
-
-TECNOLOGIAS UTILIZADAS
-----------------------
-- HTML5 (estrutura semântica)
-- CSS3 (grid, flexbox, variáveis CSS)
-- JavaScript ES6+ (modules, async/await, fetch API)
-- PHP 8+ (PDO, prepared statements)
-- MariaDB/MySQL (banco de dados relacional)
-
-SEGURANÇA
----------
-✓ Prepared statements (proteção contra SQL injection)
-✓ Escape de HTML no JavaScript (proteção contra XSS)
-✓ Validação de parâmetros na API (id deve ser numérico)
-✓ Headers Content-Type corretos
-✓ Sem execução de código arbitrário
-
-ACESSIBILIDADE
---------------
-✓ Landmarks ARIA (role="dialog", aria-label)
-✓ Foco visível em elementos interativos
-✓ Suporte a navegação por teclado (ESC fecha modal)
-✓ Textos alternativos em todas as imagens
-✓ Mensagens de status com aria-live
-
-COMPATIBILIDADE
----------------
-- Chrome 90+
-- Firefox 88+
-- Edge 90+
-- Safari 14+
-- Opera 76+
-
-NOTA: Requer suporte a ES6 Modules (type="module")
-
-LICENÇA
--------
-Projeto demonstrativo para fins educacionais.
-Minecraft é marca registrada da Mojang Studios.
-
-CRÉDITOS
---------
-Desenvolvido como exemplo de site fullstack com:
-- Frontend: HTML, CSS, JavaScript (vanilla)
-- Backend: PHP (API RESTful)
-- Banco de dados: MariaDB
+Boa sorte e bom jogo! ⛏️🎮
 
 ================================================================================
-                        http://localhost/minecraft/
+                  Acesse: http://localhost/minecraft/
 ================================================================================
