@@ -130,7 +130,19 @@ function renderRecipe(data) {
 
   // Grade 3x3 (para itens com receita)
   const gridEl = document.getElementById('craftGrid');
-  gridEl.innerHTML = grid.map(cell => {
+
+  // Criar uma matriz 3x3 completa (9 células)
+  const fullGrid = [];
+  for (let row = 0; row < 3; row++) {
+    for (let col = 0; col < 3; col++) {
+      // Buscar se existe célula com essa posição na API
+      const cell = grid.find(c => c.row === row && c.col === col);
+      fullGrid.push(cell || { row, col, ingredient: null, quantity: 0 });
+    }
+  }
+
+  // Renderizar todas as 9 células na ordem correta
+  gridEl.innerHTML = fullGrid.map(cell => {
     const isEmpty = !cell.ingredient;
     const icon = isEmpty
       ? assetUrl('icons/empty_cell.svg')
