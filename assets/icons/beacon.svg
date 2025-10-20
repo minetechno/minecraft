@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Beacon">
+  <!-- Base de obsidiana -->
+  <rect fill="#1A0033" x="4" y="11" width="8" height="2"/>
+  <!-- Corpo de vidro -->
+  <rect fill="#87CEEB" x="5" y="7" width="6" height="4" opacity="0.6"/>
+  <rect fill="#87CEFA" x="6" y="8" width="4" height="2" opacity="0.7"/>
+  <!-- Centro brilhante -->
+  <rect fill="#00FFFF" x="7" y="8" width="2" height="2"/>
+  <rect fill="#FFFFFF" x="7.5" y="8.5" width="1" height="1"/>
+  <!-- Raio de luz -->
+  <rect fill="#87CEEB" x="7.5" y="4" width="1" height="3" opacity="0.5"/>
+  <rect fill="#00FFFF" x="7.5" y="2" width="1" height="2" opacity="0.7"/>
+</svg>

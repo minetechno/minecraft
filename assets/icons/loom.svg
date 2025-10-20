@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Telar">
+  <!-- Base de madeira -->
+  <rect fill="#8B5A2B" x="4" y="9" width="8" height="4"/>
+  <rect fill="#9D6B3B" x="5" y="10" width="6" height="2"/>
+  <!-- Tear vertical -->
+  <rect fill="#D2B48C" x="5" y="4" width="6" height="5"/>
+  <rect fill="#F5DEB3" x="6" y="5" width="4" height="3"/>
+  <!-- Fios -->
+  <rect fill="#FFFFFF" x="6" y="5" width="1" height="3"/>
+  <rect fill="#FFFFFF" x="8" y="5" width="1" height="3"/>
+  <rect fill="#FFFFFF" x="9" y="5" width="1" height="3"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Tijolos de Pedra">
+  <!-- Bloco base -->
+  <rect fill="#9F9F9F" x="3" y="3" width="10" height="10"/>
+  <!-- Tijolos -->
+  <rect fill="#B0B0B0" x="3" y="3" width="5" height="5"/>
+  <rect fill="#A0A0A0" x="8" y="3" width="5" height="5"/>
+  <rect fill="#A0A0A0" x="3" y="8" width="5" height="5"/>
+  <rect fill="#B0B0B0" x="8" y="8" width="5" height="5"/>
+  <!-- Juntas -->
+  <rect fill="#808080" x="3" y="7.5" width="10" height="1"/>
+  <rect fill="#808080" x="7.5" y="3" width="1" height="10"/>
+</svg>

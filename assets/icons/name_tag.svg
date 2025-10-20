@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Etiqueta">
+  <!-- Papel da etiqueta -->
+  <rect fill="#FFFAF0" x="5" y="6" width="6" height="6"/>
+  <rect fill="#FFFFFF" x="6" y="7" width="4" height="4"/>
+  <!-- Buraco para amarrar -->
+  <rect fill="#654321" x="7" y="5" width="2" height="1"/>
+  <!-- Fio -->
+  <rect fill="#8B7355" x="7.5" y="3" width="1" height="2"/>
+  <!-- Texto (linhas) -->
+  <rect fill="#2F2F2F" x="6" y="8" width="3" height="1"/>
+  <rect fill="#2F2F2F" x="6" y="10" width="4" height="1"/>
+</svg>

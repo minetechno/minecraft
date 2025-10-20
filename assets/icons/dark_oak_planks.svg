@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Tábuas de dark_oak">
+  <rect fill="#3D2817" x="3" y="3" width="10" height="10"/>
+  <rect fill="#2D1807" x="4" y="4" width="8" height="8"/>
+  <!-- Linhas das tábuas -->
+  <rect fill="#1D0800" x="4" y="6" width="8" height="1"/>
+  <rect fill="#1D0800" x="4" y="9" width="8" height="1"/>
+  <!-- Veios -->
+  <rect fill="#1D0800" x="5" y="5" width="1" height="1"/>
+  <rect fill="#1D0800" x="9" y="7" width="1" height="1"/>
+  <rect fill="#1D0800" x="7" y="10" width="1" height="1"/>
+</svg>

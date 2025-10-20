@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Lâmpada de Redstone">
+  <!-- Corpo da lâmpada (apagada) -->
+  <rect fill="#5A3A2A" x="4" y="4" width="8" height="8"/>
+  <rect fill="#7A5A4A" x="5" y="5" width="6" height="6"/>
+  <!-- Pontos de redstone -->
+  <rect fill="#8B0000" x="6" y="6" width="1" height="1"/>
+  <rect fill="#8B0000" x="9" y="6" width="1" height="1"/>
+  <rect fill="#8B0000" x="6" y="9" width="1" height="1"/>
+  <rect fill="#8B0000" x="9" y="9" width="1" height="1"/>
+  <!-- Centro -->
+  <rect fill="#9A6A5A" x="7" y="7" width="2" height="2"/>
+</svg>

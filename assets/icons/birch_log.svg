@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Tronco de birch">
+  <!-- Lateral do tronco -->
+  <rect fill="#C7B175" x="3" y="3" width="10" height="10"/>
+  <rect fill="#D7C185" x="4" y="4" width="8" height="8"/>
+  <!-- Linhas verticais da casca -->
+  <rect fill="#B7A165" x="5" y="4" width="1" height="8"/>
+  <rect fill="#B7A165" x="8" y="4" width="1" height="8"/>
+  <rect fill="#B7A165" x="10" y="4" width="1" height="8"/>
+  <!-- Textura -->
+  <rect fill="#B7A165" x="6" y="5" width="1" height="2"/>
+  <rect fill="#B7A165" x="9" y="8" width="1" height="2"/>
+</svg>

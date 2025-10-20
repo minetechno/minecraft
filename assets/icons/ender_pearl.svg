@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Ender Pearl">
+  <!-- Pérola -->
+  <rect fill="#00706C" x="6" y="6" width="4" height="4"/>
+  <rect fill="#008B8B" x="7" y="7" width="2" height="2"/>
+  <!-- Brilho -->
+  <rect fill="#20B2AA" x="7" y="7" width="1" height="1"/>
+  <!-- Partículas -->
+  <rect fill="#9370DB" x="5" y="5" width="1" height="1"/>
+  <rect fill="#9370DB" x="10" y="6" width="1" height="1"/>
+  <rect fill="#9370DB" x="6" y="10" width="1" height="1"/>
+</svg>

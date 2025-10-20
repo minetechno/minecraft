@@ -97,7 +97,7 @@ async function fetchRecipe(itemId) {
  * @param {Object} data - Dados da receita
  */
 function renderRecipe(data) {
-  const { item, grid, ingredients } = data;
+  const { item, grid, ingredients, has_recipe, message } = data;
 
   // Atualiza o título da página
   document.title = `${item.name} - Minecraft Crafts`;
@@ -109,7 +109,26 @@ function renderRecipe(data) {
   document.getElementById('itemCategory').textContent = item.category;
   document.getElementById('itemDescription').textContent = item.description;
 
-  // Grade 3x3
+  // Se não tem receita, mostra mensagem especial
+  if (has_recipe === false) {
+    const gridEl = document.getElementById('craftGrid');
+    gridEl.innerHTML = `
+      <div class="alert alert-info" style="grid-column: 1 / -1; text-align: center; padding: 2rem;">
+        <p style="margin: 0; font-size: 1.1rem;">
+          <strong>ℹ️ ${escapeHtml(message || 'Este item não possui receita de crafting.')}</strong>
+        </p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.8;">
+          Este item é um material base ou é obtido de outras formas no jogo (mineração, drops de mobs, comércio, etc).
+        </p>
+      </div>
+    `;
+
+    const ingredientsEl = document.getElementById('ingredientsList');
+    ingredientsEl.innerHTML = '<li style="text-align: center; opacity: 0.7;">Não há ingredientes necessários.</li>';
+    return;
+  }
+
+  // Grade 3x3 (para itens com receita)
   const gridEl = document.getElementById('craftGrid');
   gridEl.innerHTML = grid.map(cell => {
     const isEmpty = !cell.ingredient;

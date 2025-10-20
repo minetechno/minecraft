@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Jukebox">
+  <!-- Corpo de madeira -->
+  <rect fill="#8B5A2B" x="3" y="3" width="10" height="10"/>
+  <rect fill="#9D6B3B" x="4" y="4" width="8" height="8"/>
+  <!-- Topo (slot do disco) -->
+  <rect fill="#2F2F2F" x="5" y="5" width="6" height="2"/>
+  <!-- Disco (diamante) -->
+  <rect fill="#00CED1" x="6" y="5.5" width="4" height="1"/>
+  <rect fill="#008B8B" x="7" y="5.5" width="2" height="1"/>
+</svg>

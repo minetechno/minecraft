@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Bigorna">
+  <!-- Topo da bigorna -->
+  <rect fill="#4A4A4A" x="4" y="5" width="8" height="2"/>
+  <rect fill="#5A5A5A" x="5" y="5" width="6" height="1"/>
+  <!-- Corpo central -->
+  <rect fill="#6A6A6A" x="5" y="7" width="6" height="3"/>
+  <rect fill="#7A7A7A" x="6" y="8" width="4" height="1"/>
+  <!-- Base -->
+  <rect fill="#3A3A3A" x="3" y="10" width="10" height="2"/>
+  <rect fill="#4A4A4A" x="4" y="10" width="8" height="1"/>
+  <!-- Horn (chifre frontal) -->
+  <rect fill="#5A5A5A" x="11" y="6" width="1" height="1"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Arenito Entalhado">
+  <!-- Bloco -->
+  <rect fill="#D2B48C" x="3" y="3" width="10" height="10"/>
+  <rect fill="#F5DEB3" x="4" y="4" width="8" height="8"/>
+  <!-- Padrão creeper -->
+  <rect fill="#8B7355" x="6" y="6" width="1" height="2"/>
+  <rect fill="#8B7355" x="9" y="6" width="1" height="2"/>
+  <rect fill="#8B7355" x="7" y="8" width="2" height="1"/>
+  <rect fill="#8B7355" x="6" y="9" width="4" height="2"/>
+</svg>

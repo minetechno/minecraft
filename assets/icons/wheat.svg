@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Trigo">
+  <!-- Caule -->
+  <rect fill="#9D6B3B" x="7.5" y="8" width="1" height="5"/>
+  <!-- Espigas -->
+  <rect fill="#FFD700" x="6" y="4" width="1" height="4"/>
+  <rect fill="#FFD700" x="7" y="3" width="1" height="5"/>
+  <rect fill="#FFA500" x="8" y="3" width="1" height="5"/>
+  <rect fill="#FFD700" x="9" y="4" width="1" height="4"/>
+  <!-- Grãos -->
+  <rect fill="#DAA520" x="7" y="4" width="1" height="1"/>
+  <rect fill="#DAA520" x="8" y="5" width="1" height="1"/>
+</svg>

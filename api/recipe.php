@@ -44,8 +44,24 @@ try {
     $stmtRecipe->execute([':item_id' => $itemId]);
     $recipe = $stmtRecipe->fetch();
 
+    // Se não tem receita, retorna apenas as informações do item
     if (!$recipe) {
-        jsonError('Este item não possui receita de crafting', 404);
+        jsonResponse([
+            'success' => true,
+            'has_recipe' => false,
+            'item' => [
+                'id' => (int) $item['id'],
+                'name' => $item['name'],
+                'slug' => $item['slug'],
+                'description' => $item['description'],
+                'icon' => $item['icon'],
+                'category' => $item['category']
+            ],
+            'grid' => [],
+            'ingredients' => [],
+            'message' => 'Este item não possui receita de crafting. É obtido de outras formas no jogo.'
+        ]);
+        return;
     }
 
     $recipeId = $recipe['id'];
@@ -111,6 +127,7 @@ try {
     // Resposta completa
     jsonResponse([
         'success' => true,
+        'has_recipe' => true,
         'item' => [
             'id' => (int) $item['id'],
             'name' => $item['name'],

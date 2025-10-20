@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Mapa">
+  <!-- Papel do mapa -->
+  <rect fill="#F5DEB3" x="4" y="3" width="8" height="10"/>
+  <rect fill="#FAEBD7" x="5" y="4" width="6" height="8"/>
+  <!-- Linhas do mapa (terreno) -->
+  <rect fill="#8B4513" x="6" y="5" width="4" height="1"/>
+  <rect fill="#228B22" x="6" y="7" width="3" height="2"/>
+  <rect fill="#4169E1" x="7" y="10" width="2" height="1"/>
+  <!-- Borda -->
+  <rect fill="#D2B48C" x="4" y="3" width="8" height="1"/>
+  <rect fill="#D2B48C" x="4" y="12" width="8" height="1"/>
+</svg>

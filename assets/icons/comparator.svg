@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Comparador">
+  <!-- Base de pedra -->
+  <rect fill="#7F7F7F" x="4" y="9" width="8" height="3"/>
+  <rect fill="#9F9F9F" x="5" y="10" width="6" height="1"/>
+  <!-- Tochas de redstone -->
+  <rect fill="#8B0000" x="6" y="8" width="1" height="1"/>
+  <rect fill="#FF0000" x="6" y="7" width="1" height="1"/>
+  <rect fill="#8B0000" x="9" y="8" width="1" height="1"/>
+  <rect fill="#FF0000" x="9" y="7" width="1" height="1"/>
+  <!-- Quartzo no meio -->
+  <rect fill="#FFFFFF" x="7.5" y="8" width="1" height="1"/>
+  <!-- Tocha traseira -->
+  <rect fill="#8B0000" x="7.5" y="6" width="1" height="1"/>
+  <rect fill="#FF0000" x="7.5" y="5" width="1" height="1"/>
+</svg>

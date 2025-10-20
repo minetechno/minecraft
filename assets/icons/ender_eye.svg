@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Olho do Ender">
+  <!-- Parte verde (pérola) -->
+  <rect fill="#008B8B" x="6" y="6" width="4" height="4"/>
+  <rect fill="#20B2AA" x="7" y="7" width="2" height="2"/>
+  <!-- Pupila (pó de blaze) -->
+  <rect fill="#2F2F2F" x="7.5" y="7.5" width="1" height="1"/>
+  <!-- Brilho mágico -->
+  <rect fill="#00FFFF" x="7" y="7" width="1" height="1"/>
+  <!-- Partículas -->
+  <rect fill="#9370DB" x="5" y="5" width="1" height="1"/>
+  <rect fill="#FFD700" x="10" y="10" width="1" height="1"/>
+</svg>

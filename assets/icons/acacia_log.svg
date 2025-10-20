@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Tronco de acacia">
+  <!-- Lateral do tronco -->
+  <rect fill="#AA4D2B" x="3" y="3" width="10" height="10"/>
+  <rect fill="#BA5D3B" x="4" y="4" width="8" height="8"/>
+  <!-- Linhas verticais da casca -->
+  <rect fill="#9A3D1B" x="5" y="4" width="1" height="8"/>
+  <rect fill="#9A3D1B" x="8" y="4" width="1" height="8"/>
+  <rect fill="#9A3D1B" x="10" y="4" width="1" height="8"/>
+  <!-- Textura -->
+  <rect fill="#9A3D1B" x="6" y="5" width="1" height="2"/>
+  <rect fill="#9A3D1B" x="9" y="8" width="1" height="2"/>
+</svg>

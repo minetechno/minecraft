@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Arenito">
+  <!-- Bloco de arenito -->
+  <rect fill="#D2B48C" x="3" y="3" width="10" height="10"/>
+  <rect fill="#F5DEB3" x="4" y="4" width="8" height="8"/>
+  <!-- Camadas -->
+  <rect fill="#DEB887" x="4" y="6" width="8" height="1"/>
+  <rect fill="#DEB887" x="4" y="9" width="8" height="1"/>
+  <!-- Textura -->
+  <rect fill="#D2B48C" x="5" y="5" width="3" height="1"/>
+  <rect fill="#D2B48C" x="8" y="10" width="3" height="1"/>
+</svg>

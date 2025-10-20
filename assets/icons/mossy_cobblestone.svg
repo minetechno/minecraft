@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Pedra Musgosa">
+  <!-- Base de pedra -->
+  <rect fill="#7F7F7F" x="3" y="3" width="10" height="10"/>
+  <rect fill="#9F9F9F" x="4" y="4" width="8" height="8"/>
+  <!-- Musgo verde -->
+  <rect fill="#228B22" x="5" y="5" width="2" height="2"/>
+  <rect fill="#2E8B57" x="8" y="7" width="2" height="2"/>
+  <rect fill="#228B22" x="6" y="10" width="2" height="1"/>
+  <rect fill="#2E8B57" x="10" y="9" width="1" height="2"/>
+  <!-- Textura de pedra -->
+  <rect fill="#808080" x="7" y="6" width="1" height="1"/>
+  <rect fill="#808080" x="9" y="10" width="1" height="1"/>
+</svg>

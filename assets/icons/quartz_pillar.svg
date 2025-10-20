@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Pilar de Quartzo">
+  <!-- Pilar vertical -->
+  <rect fill="#FFFFFF" x="5" y="2" width="6" height="12"/>
+  <rect fill="#F5F5F5" x="6" y="3" width="4" height="10"/>
+  <!-- Linhas verticais -->
+  <rect fill="#E0E0E0" x="6" y="3" width="1" height="10"/>
+  <rect fill="#E0E0E0" x="9" y="3" width="1" height="10"/>
+  <!-- Topo e base -->
+  <rect fill="#D3D3D3" x="5" y="2" width="6" height="1"/>
+  <rect fill="#D3D3D3" x="5" y="13" width="6" height="1"/>
+</svg>

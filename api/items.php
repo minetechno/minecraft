@@ -18,16 +18,17 @@ try {
     // Parâmetro de busca opcional
     $search = isset($_GET['q']) ? trim($_GET['q']) : '';
 
-    // Query base - apenas itens que possuem receitas (craftáveis)
+    // Query base - todos os itens (craftáveis e materiais)
     $sql = "
         SELECT DISTINCT
             i.id,
             i.name,
             i.slug,
             i.icon,
-            i.category
+            i.category,
+            CASE WHEN r.id IS NOT NULL THEN 1 ELSE 0 END as has_recipe
         FROM items i
-        INNER JOIN recipes r ON i.id = r.item_id
+        LEFT JOIN recipes r ON i.id = r.item_id
     ";
 
     $params = [];

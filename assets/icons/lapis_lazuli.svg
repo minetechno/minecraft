@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Lápis-Lazúli">
+  <!-- Gema azul -->
+  <rect fill="#1E3A8A" x="6" y="6" width="4" height="5"/>
+  <rect fill="#2563EB" x="7" y="7" width="2" height="3"/>
+  <!-- Topo pontiagudo -->
+  <polygon fill="#1E3A8A" points="8,4 6,6 10,6"/>
+  <!-- Base pontiaguda -->
+  <polygon fill="#1E3A8A" points="8,11 6,11 7,13"/>
+  <polygon fill="#1E3A8A" points="8,11 10,11 9,13"/>
+  <!-- Brilho -->
+  <rect fill="#3B82F6" x="7" y="7" width="1" height="2"/>
+</svg>

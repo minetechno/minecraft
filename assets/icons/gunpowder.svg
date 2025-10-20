@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Pólvora">
+  <!-- Pilha de pólvora -->
+  <rect fill="#2F2F2F" x="6" y="9" width="4" height="3"/>
+  <rect fill="#3F3F3F" x="7" y="10" width="2" height="1"/>
+  <!-- Grãos espalhados -->
+  <rect fill="#1F1F1F" x="5" y="8" width="1" height="1"/>
+  <rect fill="#1F1F1F" x="10" y="8" width="1" height="1"/>
+  <rect fill="#2F2F2F" x="7" y="7" width="1" height="1"/>
+  <rect fill="#1F1F1F" x="8" y="6" width="1" height="1"/>
+</svg>

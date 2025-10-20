@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Corante magenta">
+  <rect fill="#DA70D6" x="5" y="6" width="6" height="6"/>
+  <rect fill="#FF00FF" x="6" y="7" width="4" height="4"/>
+  <rect fill="#FF69B4" x="7" y="8" width="2" height="2"/>
+  <polygon fill="#DA70D6" points="8,3 6,6 10,6"/>
+</svg>
