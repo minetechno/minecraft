@@ -216,7 +216,3 @@ Se você é novo no Minecraft, comece procurando por estas receitas:
    - Feita com 4 tábuas de madeira
 
 Boa sorte e bom jogo! ⛏️🎮
-
-================================================================================
-                  Acesse: http://localhost/minecraft/
-================================================================================
