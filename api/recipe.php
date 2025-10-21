@@ -1,7 +1,7 @@
 <?php
 /**
  * API Endpoint: Detalhes da receita de um item
- * GET /minecraft/api/recipe.php?id={item_id}
+ * GET /api/recipe.php?id={item_id}
  */
 
 require_once __DIR__ . '/db.php';

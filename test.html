@@ -47,7 +47,7 @@
 
       try {
         result.textContent = 'Carregando...';
-        const response = await fetch('/minecraft/api/items.php');
+        const response = await fetch('/api/items.php');
         const data = await response.json();
 
         result.textContent = JSON.stringify(data, null, 2);
@@ -64,7 +64,7 @@
 
       try {
         result.textContent = 'Carregando...';
-        const response = await fetch('/minecraft/api/recipe.php?id=8');
+        const response = await fetch('/api/recipe.php?id=8');
         const data = await response.json();
 
         result.textContent = JSON.stringify(data, null, 2);
@@ -81,7 +81,7 @@
 
       try {
         result.textContent = 'Carregando...';
-        const response = await fetch('/minecraft/partials/modal.html');
+        const response = await fetch('/partials/modal.html');
         const html = await response.text();
 
         result.textContent = 'Status: ' + response.status + '\n\n' + html.substring(0, 500) + '...';
@@ -100,7 +100,7 @@
         result.textContent = 'Carregando modal...';
 
         // Carrega o modal
-        const response = await fetch('/minecraft/partials/modal.html');
+        const response = await fetch('/partials/modal.html');
         const html = await response.text();
         document.getElementById('modalContainer').innerHTML = html;
 

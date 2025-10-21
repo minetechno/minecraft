@@ -1,8 +1,8 @@
 <?php
 /**
  * API Endpoint: Lista de itens craftáveis
- * GET /minecraft/api/items.php
- * GET /minecraft/api/items.php?q=espada (filtro por nome)
+ * GET /api/items.php
+ * GET /api/items.php?q=espada (filtro por nome)
  */
 
 require_once __DIR__ . '/db.php';

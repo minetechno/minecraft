@@ -8,7 +8,7 @@
    ============================================ */
 @font-face {
   font-family: 'MinecraftPixel';
-  src: url('/minecraft/assets/fonts/pixel.woff') format('woff');
+  src: url('/assets/fonts/pixel.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

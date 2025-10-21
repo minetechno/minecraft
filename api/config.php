@@ -4,12 +4,12 @@
  */
 
 // Base path da aplicação
-define('BASE_PATH', '/minecraft');
+define('BASE_PATH', '');
 
 // Configurações do banco de dados
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', ''); // Padrão WAMP
+define('DB_USER', 'gvrGRTge');
+define('DB_PASS', 'da5433DFW#@$fv'); // Padrão WAMP
 define('DB_NAME', 'minecraft_site');
 define('DB_CHARSET', 'utf8mb4');
 

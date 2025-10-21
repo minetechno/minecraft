@@ -3,7 +3,7 @@
  */
 
 // Base path da aplicação
-export const BASE_PATH = '/minecraft';
+export const BASE_PATH = '';
 
 /**
  * Constrói uma URL completa a partir de um caminho relativo
