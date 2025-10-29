@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Panda">
+  <!-- Orelhas pretas -->
+  <rect fill="#000000" x="5" y="3" width="2" height="2"/>
+  <rect fill="#000000" x="9" y="3" width="2" height="2"/>
+  <!-- Cabeça branca -->
+  <rect fill="#FFFFFF" x="5" y="4" width="6" height="4"/>
+  <!-- Olhos com manchas pretas -->
+  <rect fill="#000000" x="6" y="5" width="2" height="2"/>
+  <rect fill="#000000" x="8" y="5" width="2" height="2"/>
+  <rect fill="#FFFFFF" x="6" y="6" width="1" height="1"/>
+  <rect fill="#FFFFFF" x="9" y="6" width="1" height="1"/>
+  <!-- Focinho -->
+  <rect fill="#000000" x="7" y="7" width="2" height="1"/>
+  <!-- Corpo branco -->
+  <rect fill="#FFFFFF" x="4" y="8" width="8" height="5"/>
+  <!-- Pernas pretas -->
+  <rect fill="#000000" x="4" y="11" width="3" height="3"/>
+  <rect fill="#000000" x="9" y="11" width="3" height="3"/>
+  <!-- Barriga -->
+  <rect fill="#F5F5F5" x="6" y="9" width="4" height="3"/>
+</svg>

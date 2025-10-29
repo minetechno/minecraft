@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Guardião">
+  <!-- Corpo principal (cubo com espinhos) -->
+  <rect fill="#5D8AA8" x="5" y="4" width="6" height="6"/>
+  <!-- Detalhes mais escuros -->
+  <rect fill="#3D5A68" x="6" y="5" width="4" height="4"/>
+  <!-- Olho grande central -->
+  <rect fill="#FFD700" x="7" y="6" width="2" height="2"/>
+  <rect fill="#000000" x="7" y="7" width="2" height="1"/>
+  <!-- Espinhos -->
+  <rect fill="#7FA8B8" x="4" y="5" width="1" height="1"/>
+  <rect fill="#7FA8B8" x="11" y="5" width="1" height="1"/>
+  <rect fill="#7FA8B8" x="4" y="8" width="1" height="1"/>
+  <rect fill="#7FA8B8" x="11" y="8" width="1" height="1"/>
+  <rect fill="#7FA8B8" x="7" y="3" width="2" height="1"/>
+  <rect fill="#7FA8B8" x="7" y="10" width="2" height="1"/>
+  <!-- Cauda -->
+  <rect fill="#5D8AA8" x="8" y="10" width="2" height="3"/>
+  <rect fill="#5D8AA8" x="9" y="13" width="1" height="2"/>
+</svg>

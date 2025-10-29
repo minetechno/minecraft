@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Golfinho">
+  <!-- Cabeça/bico -->
+  <rect fill="#87CEEB" x="4" y="6" width="3" height="2"/>
+  <!-- Corpo -->
+  <rect fill="#4682B4" x="7" y="5" width="6" height="4"/>
+  <!-- Barriga mais clara -->
+  <rect fill="#B0E0E6" x="8" y="6" width="4" height="2"/>
+  <!-- Olho -->
+  <rect fill="#000000" x="7" y="6" width="1" height="1"/>
+  <!-- Nadadeira dorsal -->
+  <rect fill="#4682B4" x="10" y="3" width="2" height="2"/>
+  <!-- Nadadeiras laterais -->
+  <rect fill="#4682B4" x="8" y="9" width="2" height="1"/>
+  <rect fill="#4682B4" x="11" y="9" width="2" height="1"/>
+  <!-- Cauda -->
+  <rect fill="#4682B4" x="13" y="4" width="2" height="1"/>
+  <rect fill="#4682B4" x="13" y="8" width="2" height="1"/>
+  <rect fill="#4682B4" x="14" y="5" width="1" height="3"/>
+</svg>

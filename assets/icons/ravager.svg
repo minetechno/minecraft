@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Ravager">
+  <!-- Chifres -->
+  <rect fill="#696969" x="3" y="3" width="2" height="2"/>
+  <rect fill="#696969" x="11" y="3" width="2" height="2"/>
+  <!-- Cabeça grande -->
+  <rect fill="#4B4B4B" x="4" y="4" width="8" height="4"/>
+  <!-- Olhos vermelhos -->
+  <rect fill="#FF0000" x="5" y="5" width="2" height="2"/>
+  <rect fill="#FF0000" x="9" y="5" width="2" height="2"/>
+  <!-- Focinho -->
+  <rect fill="#696969" x="6" y="7" width="4" height="1"/>
+  <!-- Corpo enorme -->
+  <rect fill="#696969" x="3" y="8" width="10" height="4"/>
+  <rect fill="#5A5A5A" x="4" y="9" width="8" height="2"/>
+  <!-- Pernas grossas -->
+  <rect fill="#4B4B4B" x="3" y="12" width="3" height="3"/>
+  <rect fill="#4B4B4B" x="10" y="12" width="3" height="3"/>
+  <!-- Sela -->
+  <rect fill="#8B4513" x="5" y="8" width="6" height="1"/>
+</svg>

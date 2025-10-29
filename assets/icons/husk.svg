@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Husk">
+  <rect fill="#C2B280" x="4" y="2" width="8" height="6"/>
+  <rect fill="#A0826D" x="5" y="4" width="2" height="2"/>
+  <rect fill="#A0826D" x="9" y="4" width="2" height="2"/>
+  <rect fill="#8B7355" x="6" y="7" width="4" height="1"/>
+  <rect fill="#C2B280" x="5" y="8" width="6" height="5"/>
+  <rect fill="#8B7355" x="6" y="9" width="4" height="3"/>
+  <rect fill="#C2B280" x="3" y="9" width="2" height="3"/>
+  <rect fill="#C2B280" x="11" y="9" width="2" height="3"/>
+  <rect fill="#C2B280" x="5" y="13" width="2" height="2"/>
+  <rect fill="#C2B280" x="9" y="13" width="2" height="2"/>
+</svg>

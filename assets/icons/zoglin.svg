@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Zoglin">
+  <rect fill="#556B2F" x="3" y="4" width="2" height="2"/>
+  <rect fill="#556B2F" x="11" y="4" width="2" height="2"/>
+  <rect fill="#6B8E23" x="4" y="5" width="8" height="5"/>
+  <rect fill="#556B2F" x="5" y="6" width="6" height="3"/>
+  <rect fill="#8B0000" x="6" y="7" width="1" height="1"/>
+  <rect fill="#8B0000" x="9" y="7" width="1" height="1"/>
+  <rect fill="#3A5F0B" x="6" y="8" width="4" height="1"/>
+  <rect fill="#6B8E23" x="4" y="10" width="3" height="4"/>
+  <rect fill="#6B8E23" x="9" y="10" width="3" height="4"/>
+</svg>
