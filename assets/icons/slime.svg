@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Slime">
+  <!-- Corpo gelatinoso verde -->
+  <rect fill="#7CFC00" x="3" y="6" width="10" height="7"/>
+  <rect fill="#32CD32" x="4" y="5" width="8" height="1"/>
+  <rect fill="#32CD32" x="2" y="7" width="1" height="5"/>
+  <rect fill="#32CD32" x="13" y="7" width="1" height="5"/>
+  <!-- Olhos -->
+  <rect fill="#006400" x="5" y="8" width="2" height="2"/>
+  <rect fill="#006400" x="9" y="8" width="2" height="2"/>
+  <!-- Brilho nos olhos -->
+  <rect fill="#90EE90" x="6" y="8" width="1" height="1"/>
+  <rect fill="#90EE90" x="10" y="8" width="1" height="1"/>
+  <!-- Base irregular -->
+  <rect fill="#32CD32" x="3" y="13" width="2" height="1"/>
+  <rect fill="#32CD32" x="6" y="13" width="2" height="1"/>
+  <rect fill="#32CD32" x="9" y="13" width="2" height="1"/>
+  <rect fill="#32CD32" x="12" y="13" width="1" height="1"/>
+</svg>

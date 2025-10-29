@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Creeper">
+  <!-- Cabeça -->
+  <rect fill="#0A8F08" x="4" y="2" width="8" height="8"/>
+
+  <!-- Olhos -->
+  <rect fill="#000000" x="5" y="4" width="2" height="2"/>
+  <rect fill="#000000" x="9" y="4" width="2" height="2"/>
+
+  <!-- Boca característica do Creeper -->
+  <rect fill="#000000" x="7" y="7" width="2" height="1"/>
+  <rect fill="#000000" x="6" y="8" width="1" height="1"/>
+  <rect fill="#000000" x="9" y="8" width="1" height="1"/>
+
+  <!-- Corpo -->
+  <rect fill="#0A8F08" x="5" y="10" width="6" height="4"/>
+
+  <!-- Pernas -->
+  <rect fill="#0A8F08" x="5" y="14" width="2" height="1"/>
+  <rect fill="#0A8F08" x="9" y="14" width="2" height="1"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Aranha">
+  <!-- Corpo -->
+  <rect fill="#3D2817" x="5" y="5" width="6" height="5"/>
+  <!-- Cabeça -->
+  <rect fill="#3D2817" x="6" y="3" width="4" height="2"/>
+  <!-- Olhos vermelhos -->
+  <rect fill="#FF0000" x="6" y="3" width="1" height="1"/>
+  <rect fill="#FF0000" x="7" y="3" width="1" height="1"/>
+  <rect fill="#FF0000" x="8" y="3" width="1" height="1"/>
+  <rect fill="#FF0000" x="9" y="3" width="1" height="1"/>
+  <!-- Pernas esquerdas -->
+  <rect fill="#3D2817" x="2" y="5" width="3" height="1"/>
+  <rect fill="#3D2817" x="2" y="7" width="3" height="1"/>
+  <rect fill="#3D2817" x="2" y="9" width="3" height="1"/>
+  <!-- Pernas direitas -->
+  <rect fill="#3D2817" x="11" y="5" width="3" height="1"/>
+  <rect fill="#3D2817" x="11" y="7" width="3" height="1"/>
+  <rect fill="#3D2817" x="11" y="9" width="3" height="1"/>
+</svg>

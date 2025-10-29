@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore todos os mobs e criaturas do Minecraft com detalhes, drops e informações">
+  <title>Mobs - Minecraft Crafts</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <!-- Header será carregado via JS -->
+  <div id="headerContainer"></div>
+
+  <main class="main-content">
+    <div class="container">
+      <!-- Título da página -->
+      <h1 class="page-title">Mobs do Minecraft</h1>
+      <p class="page-subtitle">Descubra todas as criaturas do jogo, seus ataques e o que elas dropam</p>
+
+      <!-- Filtros por tipo de mob -->
+      <div class="mob-filters" role="group" aria-label="Filtros por tipo de mob">
+        <button class="filter-btn active" data-type="" aria-pressed="true">Todos</button>
+        <button class="filter-btn" data-type="passive" aria-pressed="false">Passivos</button>
+        <button class="filter-btn" data-type="neutral" aria-pressed="false">Neutros</button>
+        <button class="filter-btn" data-type="hostile" aria-pressed="false">Hostis</button>
+        <button class="filter-btn" data-type="boss" aria-pressed="false">Bosses</button>
+      </div>
+
+      <!-- Status de carregamento -->
+      <div id="loadingMessage" class="loading-message" aria-live="polite">
+        Carregando mobs...
+      </div>
+
+      <!-- Mensagem de erro -->
+      <div id="errorMessage" class="error-message" style="display: none;" role="alert"></div>
+
+      <!-- Grid de cards de mobs -->
+      <div id="mobsGrid" class="items-grid" role="list">
+        <!-- Cards serão inseridos aqui via JS -->
+      </div>
+
+      <!-- Mensagem quando não há resultados -->
+      <div id="noResultsMessage" class="no-results" style="display: none;" role="status">
+        Nenhum mob encontrado.
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer será carregado via JS -->
+  <div id="footerContainer"></div>
+
+  <!-- Modal de detalhes do mob -->
+  <div id="mobModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="mobModalTitle" style="display: none;">
+    <div class="modal-overlay" id="mobModalOverlay"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="closeMobModal" aria-label="Fechar modal">×</button>
+
+      <div id="mobModalContent">
+        <!-- Conteúdo será inserido via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="/js/mobs.js"></script>
+</body>
+</html>

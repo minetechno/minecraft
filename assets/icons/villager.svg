@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Aldeão">
+  <!-- Cabeça -->
+  <rect fill="#D2B48C" x="5" y="3" width="6" height="5"/>
+  <!-- Cabelo/Turbante -->
+  <rect fill="#8B4513" x="5" y="2" width="6" height="1"/>
+  <!-- Olhos -->
+  <rect fill="#000000" x="6" y="5" width="1" height="1"/>
+  <rect fill="#000000" x="9" y="5" width="1" height="1"/>
+  <!-- Nariz grande -->
+  <rect fill="#C19A6B" x="7" y="6" width="2" height="2"/>
+  <!-- Corpo (túnica marrom) -->
+  <rect fill="#654321" x="4" y="8" width="8" height="5"/>
+  <!-- Braços cruzados -->
+  <rect fill="#D2B48C" x="3" y="9" width="2" height="3"/>
+  <rect fill="#D2B48C" x="11" y="9" width="2" height="3"/>
+  <!-- Pernas -->
+  <rect fill="#8B4513" x="5" y="13" width="2" height="2"/>
+  <rect fill="#8B4513" x="9" y="13" width="2" height="2"/>
+</svg>

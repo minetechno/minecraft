@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Homem-Porco Zumbi">
+  <!-- Cabeça rosa/verde zumbi -->
+  <rect fill="#8FBC8F" x="4" y="2" width="8" height="6"/>
+  <!-- Orelhas de porco -->
+  <rect fill="#FFC0CB" x="3" y="3" width="1" height="2"/>
+  <rect fill="#FFC0CB" x="12" y="3" width="1" height="2"/>
+  <!-- Olhos vermelhos -->
+  <rect fill="#FF0000" x="5" y="4" width="2" height="2"/>
+  <rect fill="#FF0000" x="9" y="4" width="2" height="2"/>
+  <!-- Focinho -->
+  <rect fill="#F08080" x="6" y="6" width="4" height="2"/>
+  <!-- Corpo (roupas douradas) -->
+  <rect fill="#FFD700" x="5" y="8" width="6" height="5"/>
+  <!-- Braços -->
+  <rect fill="#8FBC8F" x="3" y="9" width="2" height="3"/>
+  <rect fill="#8FBC8F" x="11" y="9" width="2" height="3"/>
+  <!-- Espada dourada -->
+  <rect fill="#FFD700" x="12" y="8" width="2" height="4"/>
+  <!-- Pernas -->
+  <rect fill="#8FBC8F" x="5" y="13" width="2" height="2"/>
+  <rect fill="#8FBC8F" x="9" y="13" width="2" height="2"/>
+</svg>

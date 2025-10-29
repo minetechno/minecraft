@@ -1,0 +1,67 @@
+================================================================================
+  CONFIGURAR VIRTUAL HOST minecraft.test - INSTRUCOES RAPIDAS
+================================================================================
+
+PASSO 1: Adicionar no arquivo hosts
+------------------------------------
+1. Clique com BOTAO DIREITO em: add_hosts_entry.ps1
+2. Selecione: "Executar com PowerShell"
+3. Se pedir permissoes, clique em "Sim"
+
+OU manualmente:
+- Abra Bloco de Notas como Administrador
+- Abra: C:\Windows\System32\drivers\etc\hosts
+- Adicione no final: 127.0.0.1  minecraft.test
+- Salve
+
+
+PASSO 2: Testar configuracao
+-----------------------------
+1. Duplo clique em: test_apache_config.bat
+2. Deve aparecer: "Syntax OK"
+
+
+PASSO 3: Reiniciar WAMP
+------------------------
+1. Clique com BOTAO DIREITO em: restart_wamp.bat
+2. Selecione: "Executar como administrador"
+
+OU via interface do WAMP:
+- Clique no icone do WAMP (bandeja)
+- Selecione "Restart All Services"
+
+
+PASSO 4: Testar no navegador
+-----------------------------
+Acesse: http://minecraft.test
+
+Pronto! O site deve abrir!
+
+
+================================================================================
+PROBLEMAS?
+================================================================================
+
+"Site nao pode ser acessado"
+- Execute: ipconfig /flushdns (como administrador)
+- Limpe cache do navegador (Ctrl+Shift+Delete)
+- Feche e abra o navegador
+
+"Forbidden"
+- Verifique se o WAMP esta rodando (icone verde)
+- Reinicie os servicos do WAMP
+
+"Apache nao reinicia"
+- Execute: test_apache_config.bat
+- Verifique os erros e corrija
+
+================================================================================
+
+ARQUIVOS CRIADOS:
+- add_hosts_entry.ps1         (Script para adicionar no hosts)
+- test_apache_config.bat      (Testar configuracao)
+- restart_wamp.bat            (Reiniciar servicos)
+- CONFIGURAR_VIRTUAL_HOST.md  (Guia completo)
+- INSTRUCOES_RAPIDAS.txt      (Este arquivo)
+
+================================================================================

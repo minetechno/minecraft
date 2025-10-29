@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Zumbi">
+  <!-- Cabeça -->
+  <rect fill="#00AA00" x="4" y="2" width="8" height="6"/>
+
+  <!-- Olhos -->
+  <rect fill="#000080" x="5" y="4" width="2" height="2"/>
+  <rect fill="#000080" x="9" y="4" width="2" height="2"/>
+
+  <!-- Boca -->
+  <rect fill="#000000" x="6" y="7" width="4" height="1"/>
+
+  <!-- Corpo -->
+  <rect fill="#00AA00" x="5" y="8" width="6" height="5"/>
+  <rect fill="#0000CD" x="6" y="9" width="4" height="3"/>
+
+  <!-- Braços -->
+  <rect fill="#00AA00" x="3" y="9" width="2" height="3"/>
+  <rect fill="#00AA00" x="11" y="9" width="2" height="3"/>
+
+  <!-- Pernas -->
+  <rect fill="#0000CD" x="5" y="13" width="2" height="2"/>
+  <rect fill="#0000CD" x="9" y="13" width="2" height="2"/>
+</svg>

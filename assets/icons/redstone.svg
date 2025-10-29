@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><rect fill="#DC143C" x="4" y="8" width="8" height="4"/><rect fill="#FF0000" x="5" y="9" width="6" height="2"/><rect fill="#8B0000" x="6" y="7" width="4" height="1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Redstone">
+  <!-- Base do pó de redstone -->
+  <rect fill="#DC143C" x="4" y="8" width="8" height="4"/>
+
+  <!-- Brilho vermelho -->
+  <rect fill="#FF0000" x="5" y="9" width="6" height="2"/>
+
+  <!-- Detalhe escuro superior -->
+  <rect fill="#8B0000" x="6" y="7" width="4" height="1"/>
+</svg>

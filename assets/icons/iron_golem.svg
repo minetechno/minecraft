@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-label="Golem de Ferro">
+  <!-- Cabeça -->
+  <rect fill="#C0C0C0" x="5" y="2" width="6" height="4"/>
+  <!-- Olhos brilhantes -->
+  <rect fill="#FFD700" x="6" y="3" width="1" height="2"/>
+  <rect fill="#FFD700" x="9" y="3" width="1" height="2"/>
+  <!-- Nariz/Boca -->
+  <rect fill="#A9A9A9" x="7" y="5" width="2" height="1"/>
+  <!-- Corpo -->
+  <rect fill="#C0C0C0" x="5" y="6" width="6" height="6"/>
+  <!-- Detalhes do corpo -->
+  <rect fill="#A9A9A9" x="7" y="8" width="2" height="2"/>
+  <!-- Braços largos -->
+  <rect fill="#C0C0C0" x="2" y="7" width="3" height="4"/>
+  <rect fill="#C0C0C0" x="11" y="7" width="3" height="4"/>
+  <!-- Pernas -->
+  <rect fill="#C0C0C0" x="5" y="12" width="2" height="3"/>
+  <rect fill="#C0C0C0" x="9" y="12" width="2" height="3"/>
+</svg>

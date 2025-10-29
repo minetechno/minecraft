@@ -1,0 +1,103 @@
+================================================================================
+  CONFIGURAR HOSTS MANUALMENTE (SEM SCRIPTS)
+================================================================================
+
+Se você não conseguir executar os scripts, siga este método manual:
+
+PASSO 1: Abrir o Bloco de Notas como Administrador
+---------------------------------------------------
+1. Clique no botão Iniciar (Windows)
+2. Digite: bloco de notas
+3. Clique com BOTÃO DIREITO em "Bloco de Notas"
+4. Selecione "Executar como administrador"
+5. Clique em "Sim" quando pedir permissão
+
+
+PASSO 2: Abrir o arquivo hosts
+-------------------------------
+1. No Bloco de Notas, vá em: Arquivo > Abrir
+2. Cole este caminho na barra de endereço:
+   C:\Windows\System32\drivers\etc\
+3. Mude o filtro de "Documentos de Texto (*.txt)" para "Todos os Arquivos (*.*)"
+4. Clique no arquivo "hosts"
+5. Clique em "Abrir"
+
+
+PASSO 3: Adicionar a entrada
+-----------------------------
+1. Vá até o final do arquivo
+2. Adicione uma linha em branco
+3. Adicione exatamente esta linha:
+
+127.0.0.1  minecraft.test
+
+4. Salve o arquivo (Ctrl+S)
+5. Feche o Bloco de Notas
+
+
+PASSO 4: Limpar cache DNS
+--------------------------
+1. Abra o Prompt de Comando como Administrador
+   - Clique em Iniciar
+   - Digite: cmd
+   - Clique com botão direito em "Prompt de Comando"
+   - Selecione "Executar como administrador"
+
+2. Digite este comando e pressione Enter:
+   ipconfig /flushdns
+
+3. Deve aparecer: "Configuração de IP do Windows. Cache do DNS Resolvedor liberado com êxito."
+
+
+PASSO 5: Reiniciar WAMP
+------------------------
+Opção A - Via interface:
+1. Clique no ícone do WAMP (bandeja do sistema)
+2. Selecione "Restart All Services"
+
+Opção B - Via script:
+1. Clique com botão direito em: restart_wamp.bat
+2. Selecione "Executar como administrador"
+
+
+PASSO 6: Testar
+---------------
+1. Abra seu navegador
+2. Digite na barra de endereços: http://minecraft.test
+3. Deve abrir o projeto Minecraft Crafts!
+
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Problema: "Acesso negado" ao salvar o arquivo hosts
+Solução: Certifique-se que abriu o Bloco de Notas como ADMINISTRADOR
+
+Problema: Não consegue ver o arquivo "hosts"
+Solução: Mude o filtro para "Todos os Arquivos (*.*)"
+
+Problema: Site não carrega (minecraft.test)
+Solução:
+1. Limpe o cache DNS: ipconfig /flushdns
+2. Limpe o cache do navegador (Ctrl+Shift+Delete)
+3. Tente no modo anônimo do navegador
+4. Reinicie o WAMP
+
+Problema: WAMP não reinicia
+Solução:
+1. Execute: test_apache_config.bat
+2. Verifique se há erros de sintaxe
+3. Consulte logs em: c:\wamp64\logs\apache_error.log
+
+================================================================================
+
+VERIFICAR SE DEU CERTO:
+
+1. Abra o Prompt de Comando
+2. Digite: ping minecraft.test
+3. Deve responder: "Fazendo ping em minecraft.test [127.0.0.1]"
+
+Se responder isso, está funcionando!
+
+================================================================================
